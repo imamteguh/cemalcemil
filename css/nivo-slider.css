@@ -1,0 +1,200 @@
+@charset "utf-8";
+.navbar{
+	width: 1024px;
+	height: 0px;
+	margin: auto;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+
+}
+
+.panel-left{
+	float:left;
+	width:250px;
+	padding: 0 10px 0 0;
+}
+.panel-center{
+	float:left;
+	width:480px;
+	padding:0 0 0 30px;
+	margin:auto;
+}
+
+.panel-right{
+	float:left;
+	width:250px;
+
+}
+
+.pic1{
+	padding:0;
+	margin:0;
+}
+
+
+.judul-pengiriman{
+	font-family:Impact;
+	background-color:#F90;
+	width:250px;
+	height:20px;
+	padding:5px;
+	border:1px solid #FF9900;
+	border-radius:5px 5px 0 0;
+	text-align:center;
+}
+	
+
+
+
+.judul{
+	font-family:Impact;
+	background-color:#F90;
+	width:250px;
+	height:20px;
+	padding:5px;
+	margin-top:0px 3px 0 3px;
+	border:1px solid #F90;
+	border-radius:5px 5px 0 0;
+	text-align:center;
+}
+
+.sidebar_konten{
+	width:250px;
+	border:1px solid #000;
+	border-radius:0 0 5px 5px;
+	margin-bottom:1px;
+	padding:5px;
+	background-color:#000;
+}
+
+.sidebar_konten ul{
+	width:250px;
+	padding: 0px;
+	margin: 0px;
+	list-style:none;
+	text-align:center;
+}
+
+.sidebar_konten a{
+	height:20px;
+	padding-left:10px;
+	display:block;
+	background-color:#CF0;
+	border:1px solid #F90;
+}
+
+.sidebar_konten a:hover{
+	display:block;
+	background-color:#F90;
+}
+
+
+	
+
+
+.konten_produk{
+	padding:5px;
+	float: left;
+	height:200px;
+	width:120px;
+	border:2px solid #F90;
+	border-radius:5px;
+	box-shadow:3px 3px 7px;
+	text-align:center;
+	margin:0 8px 8px 0;
+	background-color:#FF6;
+}
+
+.konten_produk .judul_produk{
+	background-color:#F90;
+	border-radius: 5px 5px 0 0;
+	font-weight: bold;
+	color:#000;
+	font-size:12px;
+}
+
+.konten_produk .harga{
+	color:#F00;
+	margin-bottom: 10px;
+}
+
+.konten_produk .ket{
+	height:40px;
+	overflow:auto;
+	color:#000;
+}
+
+.badan{width:1024}
+.shell { width:1024px; margin:0 auto;}
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:1024px;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#ffffff;
+	color:#666666;
+	opacity: 0.8; 
+	width:100%;
+	z-index:89;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:99;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+
+.nivo-controlNav a {
+	position:relative;
+	z-index:99;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
