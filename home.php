@@ -66,7 +66,7 @@ if(mysql_num_rows($listpro)>0) {
 
 <div class="shell">
 <div class="panel-right">
-<div class="judul-pengiriman">JASA PENGIRIMAN</div>
+<div class="judul-pengiriman">JASA PENGIRIMAN BARANG</div>
 <div class="pic1"><img src="image/pic1/jne.png" width="136" height="56" /></div>
 </div>
 </div>
